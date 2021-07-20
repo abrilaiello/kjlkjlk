@@ -1,0 +1,24 @@
+
+
+.estiloBody {
+    background-image: url(https://img.freepik.com/foto-gratis/textil-relieve-rosa-pastel-textura_53876-94900.jpg?size=626&ext=jpg);
+}
+
+.estiloNavfooter {
+    color: darkslateblue;
+    background-color: floralwhite;
+}
+
+.estiloLogo {
+    display: inline-block;
+    justify-content: center;
+}
+
+.estiloInsta {
+    display: inline-block;
+    justify-content: center;
+}
+
+header nav{
+    background-color:red;
+    }

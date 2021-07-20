@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAA,CACA,KAAK,CAAE,GAAG,CACb",
+    "sources": [
+        "../Bootstrap/CSS/sass/sass.scss"
+    ],
+    "names": [],
+    "file": "sass.min.css"
+}

@@ -1,0 +1,234 @@
+.estiloBody {
+    background-image: url(https://img.freepik.com/foto-gratis/textil-relieve-rosa-pastel-textura_53876-94900.jpg?size=626&ext=jpg);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    color:darkslategrey;
+    font-style: italic;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    line-height: normal;
+    text-decoration: solid;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    margin-top: 3%;
+    position: fixed;
+    right: 2%;
+}
+
+.logoHeader {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.logoFoot {
+    display: inline-block;
+}
+
+.estiloVideo {
+display: inline-block;
+margin: 0% 0% 0% 40%;
+}
+
+.listaUno {
+font-style: italic;
+font-weight: bold;
+font-size: 160%;
+font-family: 'Roboto', sans-serif;
+line-height: 150%;
+text-decoration: solid;
+letter-spacing: 5%;
+word-spacing: 5%;
+display: inline-block;
+position: absolute;
+top: 25%;
+}
+
+.primerFila {
+color: blueviolet;
+font-style: italic;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+line-height: 20px;
+text-decoration: solid;
+letter-spacing: normal;
+word-spacing: normal;
+}
+
+.segundaFila {
+color:steelblue;
+font-style: italic;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+line-height: 20px;
+text-decoration: solid;
+letter-spacing: normal;
+word-spacing: normal;
+}
+
+.estiloFooter{
+background-image:linear-gradient(to right, rgb(245, 112, 174), rgb(248, 237, 138) ) ;
+display: flex;
+flex-flow: row;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.estiloFooterInicio{
+background-image:linear-gradient(to right, rgb(245, 112, 174), rgb(248, 237, 138) ) ;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 0%;
+}
+
+.letrasPie {
+color:black;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+line-height: 40px;
+text-decoration: solid;
+letter-spacing: normal;
+display: inline-block;
+text-align: left;
+align-items: left;
+
+    }
+
+.tituloProductos {
+color:darkslategrey;
+font-style: italic;
+font-weight: bold;
+font-size: xx-large;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+line-height: normal;
+text-decoration: solid;
+letter-spacing: normal;
+word-spacing: normal;
+}
+
+.textosUno{
+color: blueviolet;
+font-style: italic;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+line-height: 20px;
+text-decoration: solid;
+letter-spacing: normal;
+word-spacing: normal;
+text-align: center;
+grid-area: tres
+}
+
+.textosDos {
+color:steelblue;
+font-style: italic;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+line-height: 20px;
+text-decoration: solid;
+letter-spacing: normal;
+word-spacing: normal;
+text-align: center;
+grid-area: dos
+}
+
+.textosTres {
+color: blueviolet;
+font-style: italic;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+line-height: 20px;
+text-decoration: solid;
+letter-spacing: normal;
+word-spacing: normal;
+text-align: center;
+grid-area: uno
+}
+
+.titulosTextos {
+font-size: 20px;
+}
+
+.estiloPromos {
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.estiloQuienes {
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 30% 70%;
+grid-template-areas: 
+    "presentacion presentacion"
+    "girasoles abundancia";
+}
+
+.estiloPresentacion {
+color:steelblue;
+font-style: italic;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+line-height: 20px;
+text-decoration: solid;
+letter-spacing: normal;
+word-spacing: normal;
+text-align: center;
+grid-area: presentacion;
+}
+
+.estiloGirasoles {
+color: blueviolet;
+font-style: italic;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+line-height: 20px;
+text-decoration: solid;
+letter-spacing: normal;
+word-spacing: normal;
+text-align: center;
+grid-area: girasoles;
+}
+
+.estiloAbundancia {
+color:blueviolet;
+font-style: italic;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+line-height: 20px;
+text-decoration: solid;
+letter-spacing: normal;
+word-spacing: normal;
+text-align: center;
+grid-area: abundancia;
+}
+
+.estiloTerapias {
+display: grid;
+grid-template-columns: 33% 34% 33%;
+grid-template-areas: 
+        "uno dos tres"
+}
